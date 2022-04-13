@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cupcakes</title>
+</head>
+<body>
+<h1>Cupcake fundraiser</h1>
+<form action="process.php" method="POST">
+
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <input type="checkbox" id="grasshopper" value="grasshopper" name="flavors[]">
+    <label for="grasshopper">The Grasshopper</label><br>
+    <input type="checkbox" id="whisky" value="whisky" name="flavors[]">
+    <label for="whisky">Whisky Maple</label><br>
+    <input type="checkbox" id="carrot" value="carrot" name="flavors[]">
+    <label for="carrot">Carrot Walnut</label><br>
+    <input type="checkbox" id="salted" value="salted" name="flavors[]">
+    <label for="salted">Salted Carmel</label><br>
+    <input type="checkbox" id="velvet" value="velvet" name="flavors[]">
+    <label for="velvet">Red Velvet</label><br>
+    <input type="checkbox" id="lemon" value="lemon" name="flavors[]">
+    <label for="lemon">Lemon Drop</label><br>
+    <input type="checkbox" id="tiramisu" value="tiramisu" name="flavors[]">
+    <label for="tiramisu">Tiramisu</label><br>
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
